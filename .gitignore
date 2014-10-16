@@ -17,6 +17,7 @@
 .Rhistory
 .Rproj.user/**
 README.html
+LICENSE.html
 
 # database files (since these tend to be too large to track)
 .mdb
