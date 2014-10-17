@@ -57,8 +57,15 @@ So far I haven't got around to filling out my employment/education details, but 
 
 --------------------------------------------------------------------------------
 
-DD/MM/YYYY  -  **Title** 
+17/10/2014  -  **License** 
 
+I decided to add a license to let people know what they are and aren't allowed to do with my data and code.  I want to contribute to open data, but I also want people to recognise my contributions and cite me as necessary.  So I decided to go with a "Creative Commons Attribution-NonCommercial 4.0 International License".  
+
+I chose that [HERE](https://creativecommons.org/choose/).  All you have to do is click what kinds of things you'd like people to do (or not) with your stuff, and optionally add a few details such as the name of the thing and who you are, and it generates a little badge you can add to your webpage.  
+
+Here's mine: 
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Peramagroon Mountain Vegetation Project</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/FlicAnderson/peramagroon" property="cc:attributionName" rel="cc:attributionURL">Felicity Anderson</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 --------------------------------------------------------------------------------
 
