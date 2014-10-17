@@ -70,8 +70,25 @@ Here's mine:
 --------------------------------------------------------------------------------
 
 
-DD/MM/YYYY  -  **Title** 
+17/10/2014  -  **Citable Code / DOI** 
 
+So I have a unique identifier (my ORCiD number), but what about my code?  What about any data I put up?  I want that to be citeable too.  This is entirely possible, by means of the [Zenodo](https://zenodo.org/) service, which allows researchers to share and showcase their research.  You can link it up to your ORCiD number too, and your GitHub account.  Which is exactly what I did!
+
+There's a great tutorial aimed at researchers who want to cite GitHub repositories in academic literature, and it shows you to how to set things up here: https://guides.github.com/activities/citable-code/ 
+
+1. **Choose your repo** - in my case, that would be `peramagroon`.  
+2. Go to [Zenodo](https://zenodo.org/) and **sign in to Zenodo**.  It'll ask if you want to login with your GitHub account, which you do!    
+3. When GitHub asked for permission to **authorize** Zenodo to link up and configure 'webhooks', I clicked "Authorize application".   
+4. It then shows you a list of repos, and you toggle the one you want to archive (ie. peramagroon) to "ON".   
+5. **Check** in the "Webhooks & Services" tab on your repo, and make sure that a new webhook has been set up to link your repo to Zenodo.  If everything worked, you don't have to do anything else about webhooks.    
+6. To test the whole system out, you need to **create a new ['Release'](https://help.github.com/articles/about-releases/)** to trigger Zenodo to archive your repo. You can do this by clicking on the little tag-icon and the bit that says "0 releases" if you haven't already created any.  You fill in the new release form, giving the release a version number (eg. v1.0 or similar) and then click **Publish release**.   
+7. On Zenodo, this should have added the new release to your Upload page.  **Edit** the details for the release to include any more information you want archived about it.    
+8. Click **Submit** to mint the DOI.  
+9. You can now click on the grey and blue DOI badge to **get the badge URL**, which you can then paste into your GitHub repo, like this: 
+
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.12271.png)](http://dx.doi.org/10.5281/zenodo.12271) 
+
+And now my repo is citeable!!
 
 --------------------------------------------------------------------------------
 
