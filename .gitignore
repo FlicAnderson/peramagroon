@@ -18,6 +18,7 @@
 .Rproj.user/**
 README.html
 LICENSE.html
+/notes/NOTES.html
 
 # database files (since these tend to be too large to track)
 .mdb
